@@ -1,0 +1,504 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 55;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		3B64F1462778BF2B0050D2DF /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3B64F1452778BF2B0050D2DF /* AppDelegate.swift */; };
+		3B64F1482778BF2B0050D2DF /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3B64F1472778BF2B0050D2DF /* SceneDelegate.swift */; };
+		3B64F14A2778BF2B0050D2DF /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3B64F1492778BF2B0050D2DF /* ViewController.swift */; };
+		3B64F14D2778BF2B0050D2DF /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3B64F14B2778BF2B0050D2DF /* Main.storyboard */; };
+		3B64F14F2778BF2D0050D2DF /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 3B64F14E2778BF2D0050D2DF /* Assets.xcassets */; };
+		3B64F1522778BF2D0050D2DF /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3B64F1502778BF2D0050D2DF /* LaunchScreen.storyboard */; };
+		3B64F15A2778C5990050D2DF /* ByPinViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3B64F1592778C5990050D2DF /* ByPinViewController.swift */; };
+		3B64F15E2778DF4E0050D2DF /* PinManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3B64F15D2778DF4E0050D2DF /* PinManager.swift */; };
+		3B64F1622778E3560050D2DF /* PinModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3B64F1612778E3560050D2DF /* PinModel.swift */; };
+		3B64F1672778F16C0050D2DF /* NameManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3B64F1662778F16C0050D2DF /* NameManager.swift */; };
+		3B64F1692778F17A0050D2DF /* NameModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3B64F1682778F17A0050D2DF /* NameModel.swift */; };
+		3B64F1712778F8810050D2DF /* MainData.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3B64F1702778F8810050D2DF /* MainData.swift */; };
+		3B64F1732778FD3A0050D2DF /* ByNameViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3B64F1722778FD3A0050D2DF /* ByNameViewController.swift */; };
+		4373BB81B0389CD0FC03DBD9 /* Pods_PINIndia.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E9E40FD172492B17ABE2D70A /* Pods_PINIndia.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		3B64F1422778BF2B0050D2DF /* PINIndia.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = PINIndia.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		3B64F1452778BF2B0050D2DF /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		3B64F1472778BF2B0050D2DF /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		3B64F1492778BF2B0050D2DF /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		3B64F14C2778BF2B0050D2DF /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		3B64F14E2778BF2D0050D2DF /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		3B64F1512778BF2D0050D2DF /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		3B64F1532778BF2D0050D2DF /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		3B64F1592778C5990050D2DF /* ByPinViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ByPinViewController.swift; sourceTree = "<group>"; };
+		3B64F15D2778DF4E0050D2DF /* PinManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PinManager.swift; sourceTree = "<group>"; };
+		3B64F1612778E3560050D2DF /* PinModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PinModel.swift; sourceTree = "<group>"; };
+		3B64F1662778F16C0050D2DF /* NameManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NameManager.swift; sourceTree = "<group>"; };
+		3B64F1682778F17A0050D2DF /* NameModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NameModel.swift; sourceTree = "<group>"; };
+		3B64F1702778F8810050D2DF /* MainData.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainData.swift; sourceTree = "<group>"; };
+		3B64F1722778FD3A0050D2DF /* ByNameViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ByNameViewController.swift; sourceTree = "<group>"; };
+		AE5B04A7C8A7E9694EEFF7FB /* Pods-PINIndia.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-PINIndia.release.xcconfig"; path = "Target Support Files/Pods-PINIndia/Pods-PINIndia.release.xcconfig"; sourceTree = "<group>"; };
+		DB54A4105C13EA0AA9C09A5E /* Pods-PINIndia.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-PINIndia.debug.xcconfig"; path = "Target Support Files/Pods-PINIndia/Pods-PINIndia.debug.xcconfig"; sourceTree = "<group>"; };
+		E9E40FD172492B17ABE2D70A /* Pods_PINIndia.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_PINIndia.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		3B64F13F2778BF2A0050D2DF /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4373BB81B0389CD0FC03DBD9 /* Pods_PINIndia.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		3B64F1392778BF2A0050D2DF = {
+			isa = PBXGroup;
+			children = (
+				3B64F1442778BF2B0050D2DF /* PINIndia */,
+				3B64F1432778BF2B0050D2DF /* Products */,
+				6750BA3D5542C134A56A2DD5 /* Pods */,
+				7595EB834755C7FFBDE7B634 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		3B64F1432778BF2B0050D2DF /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				3B64F1422778BF2B0050D2DF /* PINIndia.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		3B64F1442778BF2B0050D2DF /* PINIndia */ = {
+			isa = PBXGroup;
+			children = (
+				3B64F1452778BF2B0050D2DF /* AppDelegate.swift */,
+				3B64F1472778BF2B0050D2DF /* SceneDelegate.swift */,
+				3B64F16D2778F1AB0050D2DF /* Model */,
+				3B64F16F2778F1E40050D2DF /* View */,
+				3B64F16E2778F1DD0050D2DF /* Controller */,
+				3B64F14E2778BF2D0050D2DF /* Assets.xcassets */,
+				3B64F1502778BF2D0050D2DF /* LaunchScreen.storyboard */,
+				3B64F1532778BF2D0050D2DF /* Info.plist */,
+			);
+			path = PINIndia;
+			sourceTree = "<group>";
+		};
+		3B64F1632778F1200050D2DF /* PinModel */ = {
+			isa = PBXGroup;
+			children = (
+				3B64F15D2778DF4E0050D2DF /* PinManager.swift */,
+				3B64F1612778E3560050D2DF /* PinModel.swift */,
+			);
+			path = PinModel;
+			sourceTree = "<group>";
+		};
+		3B64F16C2778F1980050D2DF /* NameModel */ = {
+			isa = PBXGroup;
+			children = (
+				3B64F1662778F16C0050D2DF /* NameManager.swift */,
+				3B64F1682778F17A0050D2DF /* NameModel.swift */,
+			);
+			path = NameModel;
+			sourceTree = "<group>";
+		};
+		3B64F16D2778F1AB0050D2DF /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				3B64F1702778F8810050D2DF /* MainData.swift */,
+				3B64F16C2778F1980050D2DF /* NameModel */,
+				3B64F1632778F1200050D2DF /* PinModel */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		3B64F16E2778F1DD0050D2DF /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				3B64F1492778BF2B0050D2DF /* ViewController.swift */,
+				3B64F1592778C5990050D2DF /* ByPinViewController.swift */,
+				3B64F1722778FD3A0050D2DF /* ByNameViewController.swift */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		3B64F16F2778F1E40050D2DF /* View */ = {
+			isa = PBXGroup;
+			children = (
+				3B64F14B2778BF2B0050D2DF /* Main.storyboard */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		6750BA3D5542C134A56A2DD5 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				DB54A4105C13EA0AA9C09A5E /* Pods-PINIndia.debug.xcconfig */,
+				AE5B04A7C8A7E9694EEFF7FB /* Pods-PINIndia.release.xcconfig */,
+			);
+			name = Pods;
+			path = Pods;
+			sourceTree = "<group>";
+		};
+		7595EB834755C7FFBDE7B634 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				E9E40FD172492B17ABE2D70A /* Pods_PINIndia.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		3B64F1412778BF2A0050D2DF /* PINIndia */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 3B64F1562778BF2D0050D2DF /* Build configuration list for PBXNativeTarget "PINIndia" */;
+			buildPhases = (
+				4846776DFB743B5AD9AA3D0E /* [CP] Check Pods Manifest.lock */,
+				3B64F13E2778BF2A0050D2DF /* Sources */,
+				3B64F13F2778BF2A0050D2DF /* Frameworks */,
+				3B64F1402778BF2A0050D2DF /* Resources */,
+				65ED38A258DAC5E06AA55F4B /* [CP] Embed Pods Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = PINIndia;
+			productName = PINIndia;
+			productReference = 3B64F1422778BF2B0050D2DF /* PINIndia.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		3B64F13A2778BF2A0050D2DF /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1320;
+				LastUpgradeCheck = 1320;
+				TargetAttributes = {
+					3B64F1412778BF2A0050D2DF = {
+						CreatedOnToolsVersion = 13.2.1;
+					};
+				};
+			};
+			buildConfigurationList = 3B64F13D2778BF2A0050D2DF /* Build configuration list for PBXProject "PINIndia" */;
+			compatibilityVersion = "Xcode 13.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 3B64F1392778BF2A0050D2DF;
+			productRefGroup = 3B64F1432778BF2B0050D2DF /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				3B64F1412778BF2A0050D2DF /* PINIndia */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		3B64F1402778BF2A0050D2DF /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3B64F1522778BF2D0050D2DF /* LaunchScreen.storyboard in Resources */,
+				3B64F14F2778BF2D0050D2DF /* Assets.xcassets in Resources */,
+				3B64F14D2778BF2B0050D2DF /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		4846776DFB743B5AD9AA3D0E /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-PINIndia-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		65ED38A258DAC5E06AA55F4B /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-PINIndia/Pods-PINIndia-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-PINIndia/Pods-PINIndia-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-PINIndia/Pods-PINIndia-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		3B64F13E2778BF2A0050D2DF /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3B64F14A2778BF2B0050D2DF /* ViewController.swift in Sources */,
+				3B64F1622778E3560050D2DF /* PinModel.swift in Sources */,
+				3B64F15A2778C5990050D2DF /* ByPinViewController.swift in Sources */,
+				3B64F1462778BF2B0050D2DF /* AppDelegate.swift in Sources */,
+				3B64F1732778FD3A0050D2DF /* ByNameViewController.swift in Sources */,
+				3B64F1712778F8810050D2DF /* MainData.swift in Sources */,
+				3B64F15E2778DF4E0050D2DF /* PinManager.swift in Sources */,
+				3B64F1482778BF2B0050D2DF /* SceneDelegate.swift in Sources */,
+				3B64F1692778F17A0050D2DF /* NameModel.swift in Sources */,
+				3B64F1672778F16C0050D2DF /* NameManager.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		3B64F14B2778BF2B0050D2DF /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				3B64F14C2778BF2B0050D2DF /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		3B64F1502778BF2D0050D2DF /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				3B64F1512778BF2D0050D2DF /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		3B64F1542778BF2D0050D2DF /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.2;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		3B64F1552778BF2D0050D2DF /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		3B64F1572778BF2D0050D2DF /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = DB54A4105C13EA0AA9C09A5E /* Pods-PINIndia.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = Z5SQ386T4B;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = PINIndia/Info.plist;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.rohantyagi.PINIndia;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		3B64F1582778BF2D0050D2DF /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = AE5B04A7C8A7E9694EEFF7FB /* Pods-PINIndia.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = Z5SQ386T4B;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = PINIndia/Info.plist;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.rohantyagi.PINIndia;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		3B64F13D2778BF2A0050D2DF /* Build configuration list for PBXProject "PINIndia" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3B64F1542778BF2D0050D2DF /* Debug */,
+				3B64F1552778BF2D0050D2DF /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		3B64F1562778BF2D0050D2DF /* Build configuration list for PBXNativeTarget "PINIndia" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3B64F1572778BF2D0050D2DF /* Debug */,
+				3B64F1582778BF2D0050D2DF /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 3B64F13A2778BF2A0050D2DF /* Project object */;
+}
