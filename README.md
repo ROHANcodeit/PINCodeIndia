@@ -1,4 +1,4 @@
-# PINCodeIndia
+# PINIndia
 **This IOS Application shows the user the head Branch Name if the user searched by "The PIN" and the PIN Code if the user searched by "The Name"</br>**
 - **Tech used in the application**
   1. UIKIT
