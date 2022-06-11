@@ -7,6 +7,12 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		3B20C8882854A166004513B9 /* WelcomeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3B20C8872854A166004513B9 /* WelcomeViewController.swift */; };
+		3B20C88C2854A4D1004513B9 /* LoginViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3B20C88B2854A4D1004513B9 /* LoginViewController.swift */; };
+		3B20C88E2854A4D5004513B9 /* RegisterViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3B20C88D2854A4D5004513B9 /* RegisterViewController.swift */; };
+		3B20C8902854A56F004513B9 /* DatabaseManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3B20C88F2854A56F004513B9 /* DatabaseManager.swift */; };
+		3B20C8922854A57B004513B9 /* Message.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3B20C8912854A57B004513B9 /* Message.swift */; };
+		3B20C8962854A8DC004513B9 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 3B20C8952854A8DC004513B9 /* GoogleService-Info.plist */; };
 		3B64F1462778BF2B0050D2DF /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3B64F1452778BF2B0050D2DF /* AppDelegate.swift */; };
 		3B64F1482778BF2B0050D2DF /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3B64F1472778BF2B0050D2DF /* SceneDelegate.swift */; };
 		3B64F14A2778BF2B0050D2DF /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3B64F1492778BF2B0050D2DF /* ViewController.swift */; };
@@ -24,6 +30,12 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		3B20C8872854A166004513B9 /* WelcomeViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = WelcomeViewController.swift; sourceTree = "<group>"; };
+		3B20C88B2854A4D1004513B9 /* LoginViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LoginViewController.swift; sourceTree = "<group>"; };
+		3B20C88D2854A4D5004513B9 /* RegisterViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RegisterViewController.swift; sourceTree = "<group>"; };
+		3B20C88F2854A56F004513B9 /* DatabaseManager.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DatabaseManager.swift; sourceTree = "<group>"; };
+		3B20C8912854A57B004513B9 /* Message.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Message.swift; sourceTree = "<group>"; };
+		3B20C8952854A8DC004513B9 /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
 		3B64F1422778BF2B0050D2DF /* PINIndia.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = PINIndia.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		3B64F1452778BF2B0050D2DF /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		3B64F1472778BF2B0050D2DF /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -79,6 +91,8 @@
 			children = (
 				3B64F1452778BF2B0050D2DF /* AppDelegate.swift */,
 				3B64F1472778BF2B0050D2DF /* SceneDelegate.swift */,
+				3B20C88F2854A56F004513B9 /* DatabaseManager.swift */,
+				3B20C8912854A57B004513B9 /* Message.swift */,
 				3B64F16D2778F1AB0050D2DF /* Model */,
 				3B64F16F2778F1E40050D2DF /* View */,
 				3B64F16E2778F1DD0050D2DF /* Controller */,
@@ -120,6 +134,9 @@
 		3B64F16E2778F1DD0050D2DF /* Controller */ = {
 			isa = PBXGroup;
 			children = (
+				3B20C8872854A166004513B9 /* WelcomeViewController.swift */,
+				3B20C88B2854A4D1004513B9 /* LoginViewController.swift */,
+				3B20C88D2854A4D5004513B9 /* RegisterViewController.swift */,
 				3B64F1492778BF2B0050D2DF /* ViewController.swift */,
 				3B64F1592778C5990050D2DF /* ByPinViewController.swift */,
 				3B64F1722778FD3A0050D2DF /* ByNameViewController.swift */,
@@ -140,8 +157,8 @@
 			children = (
 				DB54A4105C13EA0AA9C09A5E /* Pods-PINIndia.debug.xcconfig */,
 				AE5B04A7C8A7E9694EEFF7FB /* Pods-PINIndia.release.xcconfig */,
+				3B20C8952854A8DC004513B9 /* GoogleService-Info.plist */,
 			);
-			name = Pods;
 			path = Pods;
 			sourceTree = "<group>";
 		};
@@ -214,6 +231,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				3B64F1522778BF2D0050D2DF /* LaunchScreen.storyboard in Resources */,
+				3B20C8962854A8DC004513B9 /* GoogleService-Info.plist in Resources */,
 				3B64F14F2778BF2D0050D2DF /* Assets.xcassets in Resources */,
 				3B64F14D2778BF2B0050D2DF /* Main.storyboard in Resources */,
 			);
@@ -268,14 +286,19 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				3B20C88C2854A4D1004513B9 /* LoginViewController.swift in Sources */,
 				3B64F14A2778BF2B0050D2DF /* ViewController.swift in Sources */,
 				3B64F1622778E3560050D2DF /* PinModel.swift in Sources */,
+				3B20C8882854A166004513B9 /* WelcomeViewController.swift in Sources */,
 				3B64F15A2778C5990050D2DF /* ByPinViewController.swift in Sources */,
 				3B64F1462778BF2B0050D2DF /* AppDelegate.swift in Sources */,
+				3B20C8902854A56F004513B9 /* DatabaseManager.swift in Sources */,
 				3B64F1732778FD3A0050D2DF /* ByNameViewController.swift in Sources */,
 				3B64F1712778F8810050D2DF /* MainData.swift in Sources */,
 				3B64F15E2778DF4E0050D2DF /* PinManager.swift in Sources */,
 				3B64F1482778BF2B0050D2DF /* SceneDelegate.swift in Sources */,
+				3B20C88E2854A4D5004513B9 /* RegisterViewController.swift in Sources */,
+				3B20C8922854A57B004513B9 /* Message.swift in Sources */,
 				3B64F1692778F17A0050D2DF /* NameModel.swift in Sources */,
 				3B64F1672778F16C0050D2DF /* NameManager.swift in Sources */,
 			);

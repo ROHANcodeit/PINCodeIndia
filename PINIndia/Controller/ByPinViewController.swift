@@ -15,6 +15,9 @@ class ByPinViewController: UIViewController,UITextFieldDelegate,pinManagerDelega
     let pinManager = PinManager()
     
     override func viewDidLoad() {
+        super.viewDidLoad()
+        self.navigationController?.navigationBar.isHidden = false
+        
         searchTextField.delegate=self
         pinManager.delegate=self
     }
@@ -42,6 +45,9 @@ class ByPinViewController: UIViewController,UITextFieldDelegate,pinManagerDelega
         
         DispatchQueue.main.async{
             self.thePinResultLabel.text=pin.Name
+            self.thePinResultLabel.layer.cornerRadius = 10
+            self.thePinResultLabel.layer.borderWidth = 2.5
+            self.thePinResultLabel.layer.borderColor = UIColor.white.cgColor
         }
     }
     

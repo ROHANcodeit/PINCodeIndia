@@ -16,6 +16,8 @@ class ByNameViewController: UIViewController,UITextFieldDelegate,nameManagerDele
     let nameManager = NameManager()
     
     override func viewDidLoad() {
+        super.viewDidLoad()
+        self.navigationController?.navigationBar.isHidden = false
         nameSearchTextField.delegate=self
         nameManager.delegate=self
     }
@@ -41,8 +43,10 @@ class ByNameViewController: UIViewController,UITextFieldDelegate,nameManagerDele
 
     func didUpdateName(_ nameManager: NameManager, name: NameModel) {
         
-        DispatchQueue.main.async{
-            self.theNameResultLabel.text=name.Pincode
+        DispatchQueue.main.async{            self.theNameResultLabel.text=name.Pincode
+            self.theNameResultLabel.layer.cornerRadius = 10
+            self.theNameResultLabel.layer.borderWidth = 2.5
+            self.theNameResultLabel.layer.borderColor = UIColor.white.cgColor
         }
     }
     

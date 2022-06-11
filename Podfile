@@ -7,5 +7,9 @@ target 'PINIndia' do
   # Pods for PINIndia
 
 	pod 'CLTypingLabel'
+  pod 'Firebase/Auth'
+  pod 'Firebase/Core'
+  pod 'Firebase/Database'
+  pod 'Firebase/Firestore'
 
 end
